@@ -16,5 +16,21 @@ const gameName = new String('hariom')
 // console.log(gameName.length)
 // console.log(gameName.toUpperCase())
 
-console.log(gameName.charAt(3))
-console.log(gameName.indexOf('o'))
+// console.log(gameName.charAt(3))
+// console.log(gameName.indexOf('o'))
+
+// const newString = gameName.substring(1,4)
+//start index 0 include and end index 4 exclude
+// console.log(newString)
+
+// const anotherString = gameName.slice(-5,-2)
+// we can use -ve indexing for slice
+// console.log(anotherString)
+
+// const newStringOne = "   hariom.   ";
+// console.log(newStringOne)
+// console.log(newStringOne.trim())
+
+const url = "https://hariom.com-20kumar"
+console.log(url)
+console.log(url.replace('-','%'))
