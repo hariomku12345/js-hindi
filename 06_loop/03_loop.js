@@ -37,6 +37,10 @@ map.set('Fr' , "france")
 // for (const [key,value] of map) {
 //     console.log(key, ':-', value)
 // }
+for (const key in map) {
+    // for in loop not useful in map.it does not work
+    console.log(key)
+}
 // map ke tarah object pe ham ye apply nahi kar sakte h
 // object ke liye for in loop ka use karte h
 
@@ -45,6 +49,6 @@ const myObject = {
     cpp:'c++',
     py:'python'
 }
-for (const key in myObject) {
-    console.log(`${key} shortcut for ${myObject[key]}`)
-}
+// for (const key in myObject) {
+//     console.log(`${key} shortcut for ${myObject[key]}`)
+// }
